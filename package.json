@@ -1,0 +1,29 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "website",
+  "author": "Joe OHeron",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@react95/core": "^6.0.4",
+    "@react95/gatsby-theme": "^1.3.12",
+    "@xstyled/styled-components": "^3.6.0",
+    "babel-plugin-styled-components": "^2.0.7",
+    "gatsby": "^4.23.0",
+    "gatsby-plugin-styled-components": "^5.23.0",
+    "object-path-expand": "^0.1.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "styled-components": "^5.3.5"
+  }
+}

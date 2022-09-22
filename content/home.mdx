@@ -1,0 +1,40 @@
+---
+title: Home
+description: The homepage of Joe O'Heron
+modal: false
+icon:
+  name: Drvspace7
+  variant: 32x32_4
+---
+
+<Modal
+  width="50%"
+  height="auto"
+  icon={<Computer variant="32x32_4" />}
+  title="Home"
+  defaultPosition={{
+  x: 50,
+  y: 20,
+  }}
+  menu={[
+            {
+              name: 'File',
+            },
+            {
+              name: 'Edit',
+            },]}
+>
+
+# Hey there!
+
+<Frame bg="white"
+  p={6}
+  boxShadow="in"
+  height="100%"
+  padding-bottom="10"
+  >
+<img src="https://s4.gifyu.com/images/Joe-Waving.gif" width="100%"/>
+
+</Frame>
+<p>Thanks for checking out my website, have a look around!</p>
+</Modal>
