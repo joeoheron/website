@@ -1,12 +1,9 @@
 {
-  "name": "website",
+  "name": "joeoheron",
   "version": "1.0.0",
   "private": true,
-  "description": "website",
-  "author": "Joe OHeron",
-  "keywords": [
-    "gatsby"
-  ],
+  "description": "This is Joe O'Heron's personal website.",
+  "author": "Joe O'Heron",
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
@@ -21,7 +18,6 @@
     "babel-plugin-styled-components": "^2.0.7",
     "gatsby": "^4.23.0",
     "gatsby-plugin-styled-components": "^5.23.0",
-    "object-path-expand": "^0.1.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "styled-components": "^5.3.5"
