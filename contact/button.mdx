@@ -1,6 +1,6 @@
 ---
-title: Button
-description: The Button component documentation
+title: Contact
+description: A simple message to submit to Joe O'Heron
 modal: false
 icon:
   name: Access226
@@ -21,6 +21,11 @@ image: /Access226_32x32_4.png
 
 # Button
 
+<form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+  {/* You still need to add the hidden input with the form name to your JSX form */}
+  <input type="hidden" name="form-name" value="contact" />
+  ...
+</form>
 
 
 <Frame bg="white"
